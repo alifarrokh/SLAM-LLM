@@ -15,10 +15,16 @@ conda create --name slam python=3.10
 conda activate slam
 
 # Install the requirements
-bash req.ss
+bash req.sh
 
 # Install SLAM-LLM
 git clone git@github.com:alifarrokh/SLAM-LLM.git
 cd SLAM-LLM
 pip install  -e .
+```
+
+### 4. Edit ~/.bashrc and copy it to slam/install
+```sh
+conda activate slam
+cd /workspace/slam
 ```
