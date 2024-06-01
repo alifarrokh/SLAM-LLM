@@ -6,3 +6,7 @@ cp ssh_keys/id* ~/.ssh/
 
 cp .bashrc ~/
 source ~/.bashrc
+
+# Configure git
+git config --global user.email "s.alifarrokh@gmail.com"
+git config --global user.name "Ali Farokh"
